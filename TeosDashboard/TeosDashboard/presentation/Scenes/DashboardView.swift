@@ -9,7 +9,10 @@ import SwiftUI
 
 struct DashboardView: View {
     var body: some View {
-        Text("Hello, Dashboard!")
+        VStack {
+            Header()
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
     }
 }
 
