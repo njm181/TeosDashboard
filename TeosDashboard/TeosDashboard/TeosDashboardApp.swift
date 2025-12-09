@@ -11,7 +11,8 @@ import SwiftUI
 struct TeosDashboardApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // ContentView()
+            DashboardView()
         }
     }
 }
